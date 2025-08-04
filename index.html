@@ -30,7 +30,6 @@
     --dark: #404040;
     --moredark: #777;
     --link: royalblue;
-    border-top: 5px solid var(--dark);
     line-height: 1.5em;
     font-family: system-ui, sans-serif;
     font-size: 16px;
@@ -70,7 +69,22 @@ body, html {
   bottom: 0;
   left: 16px;
 }
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
 
+.card {
+  background-color: black;
+  border-radius: 1em;
+  padding: 2em;
+
+}
+
+@media (min-width: 700px) {
 .middle {
   position: absolute;
   top: 50%;
@@ -80,10 +94,9 @@ body, html {
 }
 
 .card {
-  background-color: black;
-  border-radius: 1em;
-  padding: 2em;
-  min-width: 300px;
+  max-width: 400px;
+}
+
 }
 
 .card_logo {
@@ -93,10 +106,6 @@ body, html {
     transform: translate(-50%, -50%);
 }
 
-hr {
-  margin: auto;
-  width: 40%;
-}
 
 button, .button, input[type=submit] {
     display: inline-block;
@@ -135,12 +144,3 @@ button:hover, .button:hover, input[type=submit]:hover {
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
