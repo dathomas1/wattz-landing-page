@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+    box-sizing: border-box;
+}
+:root {
+    color-scheme: light dark;
+    --light: #fff;
+    --lesslight: #efefef;
+    --dark: #404040;
+    --moredark: #777;
+    --link: royalblue;
+    border-top: 5px solid var(--dark);
+    line-height: 1.5em;
+    font-family: system-ui, sans-serif;
+    font-size: 16px;
+    color: var(--dark);
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-image: url('wattz-hoodie-back.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card {
+  background-color: black;
+  border-radius: 1em;
+  padding: 2em;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+
+button, .button, input[type=submit] {
+    display: inline-block;
+    background-color: var(--dark);
+    color: var(--light);
+    text-align: center;
+    padding: .5em;
+    border-radius: .25em;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.button a {
+    text-decoration: none;
+}
+
+button:hover, .button:hover, input[type=submit]:hover {
+    color: var(--lesslight);
+    background-color: var(--moredark);
+}
+
+</style>
+<body>s
+
+<div class="bgimg">
+  <div class="middle card">
+    <img src="Grey-wattz-logo.png" alt="Wattz Visionary Apparel grey logo" width="200px">
+    <p>Wattz Visionary Apparel.
+    </p>
+    <p>New clothes coming soon. Sign up to stay updated.
+    </p>
+    <a class="button" href="https://sendfox.com/darnell.thomas">Subscribe</a>     
+  </div>
+</div>
+
+</body>
+</html>
