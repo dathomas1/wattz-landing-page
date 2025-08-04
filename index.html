@@ -35,7 +35,9 @@ body, html {
 }
 
 .bgimg h1 {
-  font-weight: 700;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 1.1em;
 }
 
 .topleft {
@@ -62,6 +64,13 @@ body, html {
   background-color: black;
   border-radius: 1em;
   padding: 2em;
+}
+
+.card_logo {
+  position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 hr {
@@ -95,7 +104,7 @@ button:hover, .button:hover, input[type=submit]:hover {
 
 <div class="bgimg">
   <div class="middle card">
-    <img src="Grey-wattz-logo.png" alt="Wattz Visionary Apparel grey logo" width="200px">
+    <img class="card_logo"src="Grey-wattz-logo.png" alt="Wattz Visionary Apparel grey logo" width="200px">
     <h1>Wattz Visionary Apparel.
     </h1>
     <p>New clothes coming soon. Sign up to stay updated.
@@ -106,5 +115,6 @@ button:hover, .button:hover, input[type=submit]:hover {
 
 </body>
 </html>
+
 
 
